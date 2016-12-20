@@ -1,0 +1,164 @@
+@charset="utf-8";
+
+/*CSS Document*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    min-width: 1440px;
+}
+
+/*HEAD*/
+
+#head {
+    margin-left: 6px;
+    margin-top: 6px;
+}
+
+#head .top {
+    width: 100%;
+    float: left;
+}
+
+#head .top img {
+    float: left;
+    margin-right: 10px;
+}
+
+#head .top .pic {
+    color: #000;
+    text-decoration: none;
+}
+
+#head .top a {
+    display: block;
+    float: left;
+    color: #2b66b4;
+    text-decoration: underline;
+    font-size: 14px;
+    margin: 23px 6px 0px 6px;
+}
+
+#head .search {
+    width: 100%;
+    float: left;
+    margin-top: 10px;
+}
+
+#head .search form {
+    width: 650px;
+    height: 34px;
+}
+
+#head .search .one {
+    width: 530px;
+    height: 30px;
+    border: 1px solid #cdcdcd;
+    -moz-box-shadow: 1px 1px 1px #999 inset;
+    /* For Firefox3.6+ */
+    -webkit-box-shadow: 1px 1px 1px #999 inset;
+    /* For Chrome5+, Safari5+ */
+    box-shadow: 1px 1px 1px #999 inset;
+    /* For Latest Opera */
+    float: left;
+    padding-left: 6px;
+    font-size: 14px;
+}
+
+#head .search .two {
+    width: 95px;
+    height: 34px;
+    border: 1px solid #6a6a6a;
+    font-size: 14px;
+    float: left;
+    margin-left: 8px;
+}
+
+#head .nav {
+    width: 100%;
+    float: left;
+}
+
+#head .nav ul {
+    background-color: #3e4352;
+    height: 40px;
+    border-radius: 3px;
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+}
+
+#head .nav ul li {
+    float: left;
+    width: 57px;
+    height: 40px;
+    text-align: center;
+}
+
+#head .nav ul li a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    line-height: 40px;
+}
+
+#head .nav ul li:hover {
+    background-color: #2c2f36;
+}
+
+#head .nav .carton {
+    background-color: #ff8800;
+}
+
+#head .nav .carton:hover {
+    background-color: #ff8800;
+}
+
+
+/*HEAD*/
+
+
+/*Waterfall*/
+
+.box {
+    position: relative;
+    float: left;
+}
+
+.content {
+    padding: 6px;
+}
+
+.content a {
+    display: block;
+    text-decoration: none;
+}
+
+.content a:hover {
+    text-decoration: underline;
+}
+
+.content .font {
+    display: block;
+    box-shadow: 1px 1px 1px #ccc;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #000;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+}
+
+.content img {
+    width: 272px;
+    height: auto;
+    box-shadow: 1px 1px 1px #ccc;
+    border-radius: 2px 2px 0px 0px;
+}
+
+
+/*Waterfall*/
